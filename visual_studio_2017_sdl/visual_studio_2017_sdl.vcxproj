@@ -128,7 +128,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <ConformanceMode>true</ConformanceMode>
+      <ConformanceMode>false</ConformanceMode>
       <AdditionalIncludeDirectories>$(ProjectDir)\SDL2\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
@@ -141,6 +141,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="gui.cpp" />
+    <ClCompile Include="hand_hour.c" />
+    <ClCompile Include="hand_min.c" />
+    <ClCompile Include="hand_sec.c" />
     <ClCompile Include="lvgl/src/lv_misc/lv_debug.c" />
     <ClCompile Include="lvgl/src/lv_core/lv_disp.c" />
     <ClCompile Include="lvgl/src/lv_core/lv_group.c" />
@@ -365,8 +369,14 @@
     <ClCompile Include="lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c" />
     <ClCompile Include="lv_examples/src/lv_ex_widgets/lv_ex_win/lv_ex_win_1.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="mickey.c" />
+    <ClCompile Include="my_watch.cpp" />
+    <ClCompile Include="silver_number.c" />
+    <ClCompile Include="step.c" />
+    <ClCompile Include="white_face.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="gui.h" />
     <ClInclude Include="lvgl/lvgl.h" />
     <ClInclude Include="lvgl/src/lv_api_map.h" />
     <ClInclude Include="lvgl/src/lv_conf_internal.h" />
@@ -486,6 +496,7 @@
     <ClInclude Include="lv_conf.h" />
     <ClInclude Include="lv_drv_conf.h" />
     <ClInclude Include="lv_ex_conf.h" />
+    <ClInclude Include="my_watch.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lvgl\src\lv_font\lv_font.mk" />

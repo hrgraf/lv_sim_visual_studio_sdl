@@ -687,6 +687,33 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="my_watch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="silver_number.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="white_face.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mickey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hand_hour.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hand_min.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hand_sec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="step.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lvgl/lvgl.h">
@@ -1046,8 +1073,15 @@
     <ClInclude Include="lv_ex_conf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="my_watch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="SDL2.dll" />
+    <None Include="lvgl\src\lv_font\lv_font.mk" />
   </ItemGroup>
 </Project>
